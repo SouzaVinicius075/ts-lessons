@@ -32,9 +32,7 @@ export class NegociacaoView {
         `;
     }
     update(model) {
-        console.log(model.lista());
         const template = this.template(model);
-        console.log(template);
         this.elemento.innerHTML = template;
     }
 }
